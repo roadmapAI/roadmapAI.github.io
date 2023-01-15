@@ -1,0 +1,132 @@
+body {
+    background-image: linear-gradient(135deg,#275c8d, #ede6f3 );
+    color:#000000;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 13em;
+}
+
+h1 {
+    margin-left: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.info-button span {
+    width: 9.5em;
+    height: 1.25em;
+}
+
+.info-button {
+    width: 9.5em;
+    height: 1.25em;
+    padding: 0.5em;
+    margin: 0 auto;
+    margin-top:  3em;
+    border-radius: 5px;
+    border-color: #16123F;
+    border-width: 2px;
+    border-style: solid;
+     background-color: #275c8d ;
+    margin-bottom: 25em;
+    transition: 0.7s;
+}
+
+.info-button:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #023B59;
+    width: 32em;
+    height: 9em;
+    transition: 0.7s
+}
+
+.info-button:hover span{
+    display: none;
+}
+
+.info-button:hover::after {
+    content: "roadmap.ai is here to assist you in building a personalized plan to achieve your desired goals. Whether you're looking to get fit, save money, or learn a new skill, our AI will work with you to create a step-by-step plan with specific tasks and deadlines. As you progress, our AI will offer encouragement and provide resources to help you stay on track. Reach your goals faster and more efficiently with the help of our interactive AI.";
+    border-color: #023B59;
+    
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.my-form {
+    font-size: 0;
+}
+
+.form-group {
+    display: flex;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #254a5e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #275c8d;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  ::placeholder {
+    color: #16123F;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .inputfield
+{
+background-color:rgba(0, 0, 0, 0.03999999910593033);
+border-color: #023B59;
+height:32px;
+width:548px;
+border-radius:8px;
+padding-left:16px;
+padding-right:16px;
+padding-top:8px;
+padding-bottom:8px;
+gap:8px;
+position:relative;
+text-align: center;
+font-size: 20px;
+margin: 0 auto;
+
+}
+
+.yourtexthere
+{
+text-align:left;
+vertical-align:text-top;
+font-size:17px;
+align-self:flex-start;
+left:48px;
+top:20px;
+position:absolute;
+line-height:129.99999523162842px;
+border-style:hidden;
+outline:none;
+width:484px;
+}
